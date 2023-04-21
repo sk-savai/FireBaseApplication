@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">FireBaseApplication</string>
+
+    <!---login fragment required text-->
+    <string name="login_heading_text">Login Here</string>
+    <string name="email_text">Email*</string>
+    <string name="password_text">Password*</string>
+    <string name="login">Login</string>
+    <string name="forgot_password_text">Forgot Password?</string>
+
+
+    <!---signup fragment required text-->
+    <string name="signup_heading_text">Sign Up</string>
+    <string name="first_name_text">FirstName*</string>
+    <string name="sur_name_text">SurName*</string>
+    <string name="mobile_number_text">Mobile Number*</string>
+    <string name="gender_text">Gender*</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="other">other</string>
+    <string name="please_accept_our_terms_and_policy">Please Accept Our terms and Policy</string>
+    <string name="con_password_text">Confirm Password</string>
+    <string name="sign_in_with_text">Sign in With</string>
+    <string name="dont_have_account_text">"Dont Have an account? Register Here "</string>
+    <string name="or_text">Or</string>
+    <string name="home">Home</string>
+    <string name="mnCategory">Category</string>
+    <string name="mnSetting">Setting</string>
+    <string name="mnMyAccount">MyAccount</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="category">Category</string>
+    <string name="setting">Setting</string>
+    <string name="my_account">My Account</string>
+    <string name="instagram">Instagram</string>
+    <string name="an_instagram_bio_is_the_small_area_under_your_username_where_you_can_share_some_details_about_yourself_or_your_brand_your_instagram_bio_can_include_a_brief_self_or_brand_description_contact_information_emojis_hashtags_and_more_here_s_an_example_of_one_of_the_best_bios_on_instagram_marie_forleo_has_a_strong_insta_bio_the_first_line_is_used_to_describe_who_she_is_ceo_writer_marietv_fancy_dancer_the_second_line_of_her_cool_bio_is_used_for_social_proof_named_by_oprah_thought_leader_for_next_generation_i_don_t_know_about_you_but_to_me_this_says_that_she_s_worth_following_the_third_line_of_this_short_bio_for_instagram_describes_what_she_does_learn_to_get_anything_you_want_and_the_last_line_is_her_cta_which_links_to_a_free_content_download_she_also_included_two_emojis_to_make_the_text_easier_to_read_and_draw_extra_attention_if_you_re_looking_for_instagram_bio_ideas_for_girls_marie_forleo_s_instagram_bio_formula_is_worth_copying_marie_forleo_instagram_bio_instagram_bio_template_to_follow_you_can_write_your_instagram_bio_any_way_you_want_to_here_are_a_few_instagram_bio_tips_that_you_might_want_to_add_based_on_popular_trends_if_you_want_to_become_an_instagram_master_follow_these_tips_and_sign_up_for_the_instagram_course_today_1_include_a_description_of_yourself_the_best_instagram_bios_tend_to_have_a_self_description_things_to_consider_adding_your_job_title_s_the_company_you_own_or_work_for_some_claims_to_fame_things_you_love_and_what_makes_you_stand_out_queen_latifah_s_instagram_bio_does_a_great_job_of_describing_her_in_the_first_line_of_her_bio_she_writes_actor_rapper_singer_producer_when_people_visit_her_fanpage_they_ll_learn_that_she_s_more_than_just_an_actor_and_may_check_out_her_other_gigs_to_learn_more_about_her_plus_that_little_blue_tick_shows_up_on_her_page_so_people_will_immediately_understand_that_she_s_famous_when_visiting_her_instagram_account_one_of_the_instagram_bio_tips_queen_latifah_teaches_us_is_that_you_can_learn_a_lot_about_a_person_even_from_a_short_bio">An Instagram bio is the small area under your username where you can share some details about yourself or your brand. Your Instagram bio can include a brief self or brand description, contact information, emojis, hashtags and more. Here’s an example of one of the best bios on Instagram: Marie Forleo has a strong Insta bio. The first line is used to describe who she is: ‘CEO. Writer. #MarieTV. Fancy Dancer.’ The second line of her cool bio is used for social proof: ‘Named by Oprah “Thought leader for next generation.”’ I don’t know about you, but to me, this says that she’s worth following. The third line of this short bio for Instagram describes what she does: ‘Learn to get *anything* you want.’ And the last line is her CTA, which links to a free content download. She also included two emojis to make the text easier to read and draw extra attention. If you’re looking for Instagram bio ideas for girls, Marie Forleo’s Instagram bio formula is worth copying. marie forleo instagram bio Instagram Bio Template to Follow You can write your Instagram bio any way you want to. Here are a few Instagram bio tips that you might want to add based on popular trends. If you want to become an Instagram master, follow these tips and sign up for the Instagram course today. 1. Include a Description of Yourself The best Instagram bios tend to have a self-description. Things to consider adding: your job title(s), the company you own or work for, some claims to fame, things you love, and what makes you stand out. Queen Latifah’s Instagram bio does a great job of describing her. In the first line of her bio she writes, ‘Actor/Rapper/Singer/Producer.’ When people visit her fanpage, they’ll learn that she’s more than just an actor and may check out her other gigs to learn more about her. Plus, that little blue tick shows up on her page, so people will immediately understand that she’s famous when visiting her Instagram account. One of the Instagram bio tips Queen Latifah teaches us is that you can learn a lot about a person even from a short bio.</string>
+    <string name="go_to_motion_layout">Motion Layout</string>
+    <string name="go_to_you_tube_motion_layout">You Tube Motion Layout</string>
+
+</resources>

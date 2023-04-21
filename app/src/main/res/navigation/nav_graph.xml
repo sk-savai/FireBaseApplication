@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.firebaseapplication.fragment.SplashFragment"
+        android:label="SplashFragment"
+        tools:layout="@layout/fragment_splash">
+        <action
+            android:id="@+id/action_splashFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true"
+           />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.firebaseapplication.fragment.LoginFragment"
+        android:label="LoginFragment"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_loginFragment_to_signUpFragment"
+            app:destination="@id/signUpFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_homeFragment"
+            app:destination="@id/menuHome"
+            app:popUpToInclusive="true"
+            app:popUpTo="@id/loginFragment"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.example.firebaseapplication.fragment.SignUpFragment"
+        android:label="SignUpFragment"
+        tools:layout="@layout/fragment_sign_up">
+        <action
+            android:id="@+id/action_signUpFragment_to_homeFragment"
+            app:destination="@id/menuHome" />
+        <action
+            android:id="@+id/action_signUpFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpToInclusive="true"
+            app:popUpTo="@id/loginFragment"/>
+    </fragment>
+    <fragment
+        android:id="@+id/menuHome"
+        android:name="com.example.firebaseapplication.fragment.HomeFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_menuHome_to_motionLayoutFragment"
+            app:destination="@id/motionLayoutFragment" />
+        <action
+            android:id="@+id/action_menuHome_to_youTubeMotionLayoutFragment"
+            app:destination="@id/youTubeMotionLayoutFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/menuCategory"
+        android:name="com.example.firebaseapplication.fragment.CategoryFragment"
+        android:label="fragment_category"
+        tools:layout="@layout/fragment_category" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/menuSetting"
+        android:name="com.example.firebaseapplication.fragment.SettingFragment"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_setting" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/menuMyAccount"
+        android:name="com.example.firebaseapplication.fragment.MyAccountFragment"
+        android:label="fragment_my_account"
+        tools:layout="@layout/fragment_my_account" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/motionLayoutFragment"
+        android:name="com.example.firebaseapplication.fragment.MotionLayoutFragment"
+        android:label="fragment_motion_layout"
+        tools:layout="@layout/fragment_motion_layout" />
+    <fragment
+        android:id="@+id/youTubeMotionLayoutFragment"
+        android:name="com.example.firebaseapplication.fragment.YouTubeMotionLayoutFragment"
+        android:label="fragment_you_tube_motion_layout"
+        tools:layout="@layout/fragment_you_tube_motion_layout" />
+</navigation>

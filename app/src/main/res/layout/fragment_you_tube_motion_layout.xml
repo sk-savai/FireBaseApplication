@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.motion.widget.MotionLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layoutDescription="@xml/fragment_you_tube_motion_layout_xml_constraintlayout2_scene"
+        tools:context=".fragment.YouTubeMotionLayoutFragment">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/clMainContainer"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_250sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/ivInsta"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="0dp"
+            android:padding="@dimen/_40sdp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_instagram"
+            app:layout_constraintBottom_toBottomOf="@id/clMainContainer"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/clMainContainer" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tvInsta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/instagram"
+            android:textColor="@color/teal_700"
+            android:textSize="@dimen/_12sdp"
+            app:layout_constraintBottom_toBottomOf="@id/ivInsta"
+            app:layout_constraintEnd_toStartOf="@id/ivPlay"
+            app:layout_constraintStart_toEndOf="@id/ivInsta"
+            app:layout_constraintTop_toTopOf="@id/ivInsta" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvMotion"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@id/bottomNavigation"
+            app:layout_constraintTop_toBottomOf="@id/clMainContainer" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/ivPlay"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:src="@drawable/ic_play"
+            app:layout_constraintBottom_toBottomOf="@id/tvInsta"
+            app:layout_constraintEnd_toStartOf="@id/ivClose"
+            app:layout_constraintStart_toEndOf="@id/tvInsta"
+            app:layout_constraintTop_toTopOf="@id/tvInsta" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/ivClose"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:src="@drawable/ic_close"
+            app:layout_constraintBottom_toBottomOf="@id/tvInsta"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/ivPlay"
+            app:layout_constraintTop_toTopOf="@id/tvInsta" />
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigation"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:alpha="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:menu="@menu/bottom_view_item">
+
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    </androidx.constraintlayout.motion.widget.MotionLayout>
+</layout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.motion.widget.MotionLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layoutDescription="@xml/fragment_motion_layout_xml_constraintlayout_scene"
+        tools:context=".fragment.MotionLayoutFragment">
+
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/ivInsta"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_230sdp"
+            android:padding="@dimen/_40sdp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_instagram"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tvInsta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/instagram"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ivInsta" />
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/nsNested"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvInsta"
+            app:layout_constraintVertical_bias="0.0"
+            tools:layout_editor_absoluteX="0dp">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tvDescription"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="sans-serif"
+                android:text="@string/an_instagram_bio_is_the_small_area_under_your_username_where_you_can_share_some_details_about_yourself_or_your_brand_your_instagram_bio_can_include_a_brief_self_or_brand_description_contact_information_emojis_hashtags_and_more_here_s_an_example_of_one_of_the_best_bios_on_instagram_marie_forleo_has_a_strong_insta_bio_the_first_line_is_used_to_describe_who_she_is_ceo_writer_marietv_fancy_dancer_the_second_line_of_her_cool_bio_is_used_for_social_proof_named_by_oprah_thought_leader_for_next_generation_i_don_t_know_about_you_but_to_me_this_says_that_she_s_worth_following_the_third_line_of_this_short_bio_for_instagram_describes_what_she_does_learn_to_get_anything_you_want_and_the_last_line_is_her_cta_which_links_to_a_free_content_download_she_also_included_two_emojis_to_make_the_text_easier_to_read_and_draw_extra_attention_if_you_re_looking_for_instagram_bio_ideas_for_girls_marie_forleo_s_instagram_bio_formula_is_worth_copying_marie_forleo_instagram_bio_instagram_bio_template_to_follow_you_can_write_your_instagram_bio_any_way_you_want_to_here_are_a_few_instagram_bio_tips_that_you_might_want_to_add_based_on_popular_trends_if_you_want_to_become_an_instagram_master_follow_these_tips_and_sign_up_for_the_instagram_course_today_1_include_a_description_of_yourself_the_best_instagram_bios_tend_to_have_a_self_description_things_to_consider_adding_your_job_title_s_the_company_you_own_or_work_for_some_claims_to_fame_things_you_love_and_what_makes_you_stand_out_queen_latifah_s_instagram_bio_does_a_great_job_of_describing_her_in_the_first_line_of_her_bio_she_writes_actor_rapper_singer_producer_when_people_visit_her_fanpage_they_ll_learn_that_she_s_more_than_just_an_actor_and_may_check_out_her_other_gigs_to_learn_more_about_her_plus_that_little_blue_tick_shows_up_on_her_page_so_people_will_immediately_understand_that_she_s_famous_when_visiting_her_instagram_account_one_of_the_instagram_bio_tips_queen_latifah_teaches_us_is_that_you_can_learn_a_lot_about_a_person_even_from_a_short_bio"
+                android:textColor="@color/purple_more"
+                android:textSize="@dimen/_14sdp" />
+        </androidx.core.widget.NestedScrollView>
+
+    </androidx.constraintlayout.motion.widget.MotionLayout>
+</layout>
